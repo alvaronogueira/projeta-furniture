@@ -1,0 +1,184 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6caa7;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 200px;
+    height: 60px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: 250px;
+}
+
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FAFCFC;
+}
+
+.flex{
+    background-color: #FAFCFC;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra{
+    display: none;
+    margin-left: 190px;
+    width: 30px;
+    height: 50px;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.sala{
+    width: 500px;
+}
+.painel{
+    width: 500px;
+}
+.movel{
+    width: 500px;
+}
+
+.gr4, .gr9{
+    width: 250px;
+    height: 150px;
+}
+.gr5, .gr6, .gr7, .gr8{
+    height: 150px;
+}
+
+/* CSS FLEXBOX */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.flex3, .flex4, .flex7{
+    width: 400px;
+}
+
+.gr2, .gr3{
+    width: 400px;
+}
+
+
+
+
+/* CSS GRID */
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+    grid-gap: 20px;
+
+}
+
+.grid1 :nth-child(n + 4){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.anuncio{
+    grid-column: 1;
+    grid-row: 2 / 5;
+    display: block;
+    color: tomato;    
+}
+
+@media (max-width: 600px){
+    .header{
+        margin: 10px;
+    }
+    .grid1{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .grid1 :nth-child(n + 4){
+        display: block;
+    }
+    .grid1 > div.anuncio{
+        grid-column: auto;
+        grid-row: auto;
+        order: -1;
+        border-bottom: 10px solid blueviolet;
+    }
+    .barra{
+        display: inline-block;
+    }
+    .menu li{
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        height: 290px;
+        top: 30px;
+        position: absolute;
+    }
+    .menu li a{
+        text-align: left;
+        text-justify: newspaper;
+        padding: 0px
+    }
+
+    .gr4, .gr9{
+        width: 250px;
+        height: 200px;
+    }
+
+    .gr5, .gr6, .gr7, .gr8{
+        width: 250px;
+        height: 200px;
+    }
+
+  
+
+    
+
+   
+   
+   
+    
+}
