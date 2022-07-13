@@ -44,23 +44,21 @@ h1{
     display: flex;
     justify-content: space-around;
 }
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
 
 .barra{
     display: none;
     margin-left: 190px;
     width: 30px;
     height: 50px;
-}
-
-.menu li{
-    margin-left: 10px;
-}
-
-.menu li a{
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    color: white;
 }
 
 .sala{
