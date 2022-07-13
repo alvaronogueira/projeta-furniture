@@ -39,6 +39,11 @@ a{
     height: 50px;
 }
 
+.text{
+    text-decoration: none;
+    color: brown;
+}
+
 .logo{
     width: 200px;
     height: 60px;
