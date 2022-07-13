@@ -8,7 +8,6 @@ body, ul, li, p{
 
 a{
     text-decoration: none;
-    color: white;
 }
 
 .header{
@@ -17,7 +16,6 @@ a{
     background-color: #d6caa7;
     align-items: center;
     padding: 20px;
-    flex-wrap: wrap;
 }
 
 .logo{
@@ -42,7 +40,6 @@ h1{
 }
 .menu{
     display: flex;
-    justify-content: space-around;
 }
 .menu li{
     margin-left: 10px;
@@ -146,6 +143,9 @@ h1{
     }
     .barra{
         display: inline-block;
+    }
+    .menu{
+        display: none;
     }
     .menu li{
         display: none;
