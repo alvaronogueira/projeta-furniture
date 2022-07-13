@@ -8,6 +8,7 @@ body, ul, li, p{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 .header{
@@ -16,6 +17,26 @@ a{
     background-color: #d6caa7;
     align-items: center;
     padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.barra{
+    display: none;
+    margin-left: 190px;
+    width: 30px;
+    height: 50px;
 }
 
 .logo{
@@ -37,25 +58,6 @@ h1{
 
 .flex{
     background-color: #FAFCFC;
-}
-.menu{
-    display: flex;
-}
-.menu li{
-    margin-left: 10px;
-}
-.menu li a{
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    color: white;
-}
-
-.barra{
-    display: none;
-    margin-left: 190px;
-    width: 30px;
-    height: 50px;
 }
 
 .sala{
