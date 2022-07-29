@@ -169,7 +169,7 @@ h1{
 
     .barra{
         display: inline-block;
-        align-items: center;
+        margin-left: 150px;
     }
    .menu{
     display: none;
