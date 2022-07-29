@@ -6,6 +6,11 @@ body, ul, li, p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.lis{
+    text-decoration: none;
+    color: white;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -33,10 +38,9 @@ a{
 }
 
 .barra{
+    width: 25px;
+    height: 55px;
     display: none;
-    margin-left: 190px;
-    width: 30px;
-    height: 50px;
 }
 
 .text{
@@ -135,6 +139,7 @@ h1{
 @media (max-width: 600px){
     .header{
         margin: 10px;
+        justify-content: space-between;
     }
     .grid1{
         grid-template-columns: repeat(2, 1fr);
@@ -149,25 +154,19 @@ h1{
         order: -1;
         border-bottom: 10px solid blueviolet;
     }
+
     .barra{
         display: inline-block;
     }
-    .menu{
-        display: none;
-    }
-    .menu li{
-        display: none;
-        flex-direction: column;
-        width: 300px;
-        height: 290px;
-        top: 30px;
-        position: absolute;
-    }
-    .menu li a{
-        text-align: left;
-        text-justify: newspaper;
-        padding: 0px
-    }
+   .menu{
+    display: none;
+    flex-direction: column;
+    width: 120px;
+    height: 150px;
+    position: absolute;
+   }
+    
+    
 
     .gr4, .gr9{
         width: 250px;
