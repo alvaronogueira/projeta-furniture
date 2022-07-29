@@ -1,6 +1,6 @@
-let menu = document.getElementById("menu");
+let menu = document.getElementById("#menu");
 
-function barraDeMenu() {
+function barraMenu() {
     if(menu.style.display == "none"){
         menu.style.display = "flex"
     }else{

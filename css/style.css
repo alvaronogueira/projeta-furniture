@@ -19,7 +19,7 @@ a{
     padding: 20px;
 }
 
-#sandwich .menu{
+.menu{
     display: flex;
 }
 .menu li{
@@ -169,6 +169,7 @@ h1{
 
     .barra{
         display: inline-block;
+        align-items: center;
     }
    .menu{
     display: none;
@@ -176,6 +177,8 @@ h1{
     width: 120px;
     height: 150px;
     position: absolute;
+    top: 0;
+    background-color: chartreuse;
    }
     
     
