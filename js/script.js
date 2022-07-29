@@ -1,4 +1,4 @@
-let menu = document.getElementById("#menu");
+let menu = document.getElementById("menu");
 
 function barraMenu() {
     if(menu.style.display == "none"){
