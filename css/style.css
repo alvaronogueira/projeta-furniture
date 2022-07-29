@@ -22,14 +22,13 @@ a{
 .menu{
     display: flex;
 }
-.menu li{
-    margin-left: 10px;
-}
+
 .menu a{
-    display: block;
     padding: 5px;
     text-decoration: none;
     color: white;
+    font-size: 15pt;
+    font-weight: bold;
 }
 
 .barra{
@@ -169,13 +168,12 @@ h1{
 
     .barra{
         display: inline-block;
-        margin-left: 150px;
     }
    .menu{
     display: none;
     flex-direction: column;
-    width: 120px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     position: absolute;
     top: 0;
     background-color: chartreuse;
