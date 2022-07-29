@@ -12,21 +12,22 @@
     </head>
     <body>
         <header>
-            
-            <div class="header">
-                <a href="#">
-                    <img class="logo" src="C:\Users\admin\Desktop\FRONT-END\Projeta\img\logo2.png" alt="menu sandwich">
-                </a>
+            <div class="container-grid position-header">
+                <div class="header">
+                    <a href="#">
+                        <img class="logo" src="C:\Users\admin\Desktop\FRONT-END\Projeta\img\logo2.png" alt="menu sandwich">
+                    </a>
 
-                <a href="#" onclick=barraMenu()>
-                    <img class="barra" src="C:\Users\admin\Desktop\FRONT-END\Projeta\img\bars-solid.svg" alt="">
-                </a> 
-                            
-                <nav id="menu" class="menu">            
-                        <a href="">Sobre</a>
-                        <a href="">Produtos</a>
-                        <a href="">Contato</a>
-                </nav>              
+                    <a href="#" onclick=myMenu()>
+                        <img class="barra" src="C:\Users\admin\Desktop\FRONT-END\Projeta\img\bars-solid.svg" alt="">
+                    </a> 
+                                
+                    <nav id="menu" class="menu">            
+                            <a href="">Sobre</a>
+                            <a href="">Produtos</a>
+                            <a href="">Contato</a>
+                    </nav>              
+                </div>
             </div>
         </header>
 
@@ -120,7 +121,7 @@
         <script>
             let menu = document.getElementById("menu")
 
-            function barraMenu() {
+            function myMenu() {
                 if (menu.style.display == "none"){
                     menu.style.display == "flex"
                 } else {
