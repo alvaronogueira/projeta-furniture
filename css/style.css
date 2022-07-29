@@ -136,6 +136,17 @@ h1{
     color: tomato;    
 }
 
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 600px){
     .header{
         margin: 10px;
@@ -143,10 +154,10 @@ h1{
         height: 70px;
     }
 
-.logo{
-    max-width: 70%;
-    height: 60px;
-}
+    .logo{
+        max-width: 70%;
+        height: 60px;
+    }
     .grid1{
         grid-template-columns: repeat(2, 1fr);
 
@@ -184,12 +195,5 @@ h1{
         height: 200px;
     }
 
-  
-
-    
-
-   
-   
-   
     
 }
