@@ -30,7 +30,7 @@ a{
 .menu li{
     margin-left: 10px;
 }
-.menu li a{
+.menu a{
     display: block;
     padding: 5px;
     text-decoration: none;
@@ -140,7 +140,13 @@ h1{
     .header{
         margin: 10px;
         justify-content: space-between;
+        height: 70px;
     }
+
+.logo{
+    max-width: 70%;
+    height: 60px;
+}
     .grid1{
         grid-template-columns: repeat(2, 1fr);
 
